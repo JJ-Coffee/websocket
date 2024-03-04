@@ -190,7 +190,7 @@ func (d *Dialer) DialContext(ctx context.Context, urlStr string, requestHeader h
 	}
 	
 	if d.Method == "" {
-		d.Method = "PATCH"
+		d.Method = "GET"
 	}
 	
 	
